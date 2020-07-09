@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="context1">
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/eledb" driverClass="com.mysql.jdbc.Driver" password="root" userId="root" />
+    <javaModelGenerator targetPackage="com.dl.pojo" targetProject="ec/src" />
+    <sqlMapGenerator targetPackage="com.dl.mapper" targetProject="ec/src" />
+    <javaClientGenerator targetPackage="com.dl.mapper" targetProject="ec/src" type="XMLMAPPER" />
+    <!-- <table tableName="address"></table>
+    <table tableName="admin"></table>
+    <table tableName="advice"></table>
+    <table tableName="charts"></table> -->
+   <!--  <table tableName="goods"></table> -->
+  <!--   <table tableName="image"></table>
+    <table tableName="orderitems"></table>
+    <table tableName="orders"></table>
+    <table tableName="user"></table> -->
+    <table tableName="address"></table> 
+  </context>
+</generatorConfiguration>
